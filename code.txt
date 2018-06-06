@@ -1,0 +1,21 @@
+git config --global user.name "parkhamint"
+git config --global user.email "alice123a@naver.com"
+
+echo "# 2018python" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/parkhamint/2018python.git
+git push -u origin master
+
+
+
+git config --global user.name "parkhamint"
+git config --global user.email "alice123a@naver.com"
+
+echo "print('hello world')" >> hello.py
+git init
+git add hello.py
+git commit -m "first commit"
+git remote add origin https://github.com/songsong18107/test.git
+git push -u origin master
